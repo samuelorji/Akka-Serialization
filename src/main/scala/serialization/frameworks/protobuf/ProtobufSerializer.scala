@@ -3,7 +3,7 @@ package serialization.frameworks.protobuf
 import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 
 import com.typesafe.config.ConfigFactory
-import serialization.cutom.Person
+import serialization.custom.Person
 import serialization.frameworks.kryo.House
 import serialization.frameworks.protobuf.Datamodel.OnlineStoreUser
 

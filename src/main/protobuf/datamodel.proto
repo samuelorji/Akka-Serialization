@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package serialization.frameworks.protobuf;
+
+enum Sex {
+    BOY  = 0;
+    GIRL = 1;
+}
+
+message ShoesPb {
+     string maker =1;
+     int32 id = 2;
+}
+message ShirtPb {
+     string maker =1;
+     int32 id = 2;
+}
+message ShortsPb {
+     string maker =1;
+     int32 id = 2;
+}
+
+message Person {
+    int32 id = 1;
+    repeated string name = 2;
+    oneof clothes {
+        ShoesPb shoes = 9;
+        ShirtPb shirt = 10;
+        ShortsPb shorts = 11;
+    }
+
+     bool candrive = 15;
+     Sex sex = 16;
+}

@@ -1,4 +1,4 @@
-package serialization.cutom
+package serialization.custom
 
 import akka.actor.{Actor, ActorLogging, ActorSelection, ActorSystem, Props}
 import akka.serialization.Serializer

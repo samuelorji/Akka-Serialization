@@ -7,7 +7,7 @@ import akka.serialization.Serializer
 
 import com.sksamuel.avro4s.{AvroInputStream, AvroOutputStream, AvroSchema}
 import com.typesafe.config.ConfigFactory
-import serialization.cutom.Person
+import serialization.custom.Person
 import serialization.frameworks.kryo.House
 
 

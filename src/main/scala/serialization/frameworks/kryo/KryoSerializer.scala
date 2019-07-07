@@ -3,7 +3,7 @@ package serialization.frameworks.kryo
 import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 
 import com.typesafe.config.ConfigFactory
-import serialization.cutom.{Human, Person}
+import serialization.custom.{Human, Person}
 
 
 case class House (address : String, number : Int)
